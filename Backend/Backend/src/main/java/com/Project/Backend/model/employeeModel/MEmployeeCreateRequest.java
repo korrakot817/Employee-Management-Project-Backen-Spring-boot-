@@ -1,0 +1,33 @@
+package com.Project.Backend.model.employeeModel;
+
+import com.Project.Backend.entity.Position;
+import lombok.Data;
+
+@Data
+public class MEmployeeCreateRequest {
+
+
+    private String firstName;
+
+    private String lastName;
+
+    private String gender;
+
+    private String email;
+
+    private Integer phoneNumber;
+
+    private Position position;
+
+    private Integer salary;
+
+    private String street;
+
+    private String city;
+
+    private String state;
+
+    private Integer zipcode;
+
+
+}
